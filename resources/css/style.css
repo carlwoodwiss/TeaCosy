@@ -38,6 +38,111 @@ nav span a {
   text-decoration: underline;
   color: seashell;
   padding: 20px 10px;
+}
 
+/*Content Holder*/
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    padding: 69px;
+  }
+
+/*Mission*/
+
+.mission {
+  border: 1px solid white;
+  width: 1200px;
+  height: 700px;
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+/*Featured*/
+
+.featured {
+  border: 1px solid white;
+  width: 1000px;
+  text-align: center;
+}
+
+.berry {
+  width: 300px;
+  height: 200px;
+  margin: 10px 20px
+}
+
+.rum {
+  width: 300px;
+  height: 200px;
+  margin: 10px 20px
+}
+
+.donuts {
+  width: 300px;
+  height: 200px;
+  margin: 10px 20px
+}
+
+.myrtle {
+  width: 300px;
+  height: 200px;
+  margin: 10px 20px
+}
+
+.bedford {
+  width: 300px;
+  height: 200px;
+  margin: 10px 20px
+}
+
+/*Locations*/
+
+.locations {
+  border: 1px solid white;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.downtown {
+  border: 1px solid white;
+  width: 300px;
+  height: 300px;
+}
+
+.bayside {
+  border: 1px solid white;
+  width: 300px;
+  height: 300px;
+}
+
+.oakdale {
+  border: 1px solid white;
+  width: 300px;
+  height: 300px;
+}
+
+/*Contact and Footer*/
+
+.contact {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid white;
+  display: block;
+}
+
+.footer {
+  border: 1px solid white;
+  text-align: left;
+  margin-left: 20px;
+  width: 100%;
 
 }
