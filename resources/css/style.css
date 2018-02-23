@@ -54,14 +54,14 @@ nav span a {
 
 /*Mission*/
 
-.mission {
+#mission {
   width: 1200px;
   height: 700px;
   text-align: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
 
-.mission h2 {
+#mission h2 {
   position: relative;
   top: 40%;
   background-color: black;
@@ -69,7 +69,7 @@ nav span a {
   padding-bottom: 10px;
 }
 
-.mission h4 {
+#mission h4 {
   position: relative;
   top: 40%;
   background-color: black;
@@ -78,16 +78,16 @@ nav span a {
 
 /*Featured*/
 
-.featured {
+#featured {
   width: 1000px;
   text-align: center;
 }
 
-.featured h2 {
+#featured h2 {
   padding-top: 50px;
 }
 
-.featured h4 {
+#featured h4 {
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
@@ -149,36 +149,51 @@ nav span a {
 
 /*Locations*/
 
-.locations {
+#locations {
   width: 1200px;
   height: 500px;
   text-align: center;
   display: inline-flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+
+}
+
+#locations h2 {
+  width: 1200px;
+  padding-bottom: 15px;
 }
 
 .downtown {
-  border: 1px solid white;
   width: 300px;
   height: 300px;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .bayside {
-  border: 1px solid white;
   width: 300px;
   height: 300px;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 40px;
 }
 
 .oakdale {
-  border: 1px solid white;
   width: 300px;
   height: 300px;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 40px;
 }
 
 /*Contact and Footer*/
