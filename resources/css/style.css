@@ -21,6 +21,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: black;
+  z-index: 1;
 }
 
 header img {
@@ -78,14 +79,12 @@ nav span a {
 /*Featured*/
 
 .featured {
-  border: 1px solid white;
   width: 1000px;
   text-align: center;
-  padding: 20px;
 }
 
 .featured h2 {
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .featured h4 {
@@ -97,31 +96,55 @@ nav span a {
 .berry {
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 .rum {
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 .donuts {
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
+}
+
+.imgtitle {
+  display: inline-flex;
+  width: 1000px;
+  justify-content: space-around;
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+.imgtitle2 {
+  display: inline-flex;
+  width: 630px;
+  justify-content: space-around;
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .myrtle {
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 .bedford {
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 /*Locations*/
