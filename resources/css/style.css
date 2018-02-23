@@ -60,8 +60,19 @@ nav span a {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
 
-.mission h2, h4 {
+.mission h2 {
+  position: relative;
+  top: 40%;
   background-color: black;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.mission h4 {
+  position: relative;
+  top: 40%;
+  background-color: black;
+  padding-bottom: 20px;
 }
 
 /*Featured*/
@@ -70,36 +81,47 @@ nav span a {
   border: 1px solid white;
   width: 1000px;
   text-align: center;
+  padding: 20px;
+}
+
+.featured h2 {
+  padding-top: 20px;
+}
+
+.featured h4 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .berry {
   width: 300px;
   height: 200px;
-  margin: 10px 20px
+  margin: 10px;
 }
 
 .rum {
   width: 300px;
   height: 200px;
-  margin: 10px 20px
+  margin: 10px;
 }
 
 .donuts {
   width: 300px;
   height: 200px;
-  margin: 10px 20px
+  margin: 10px;
 }
 
 .myrtle {
   width: 300px;
   height: 200px;
-  margin: 10px 20px
+  margin: 10px;
 }
 
 .bedford {
   width: 300px;
   height: 200px;
-  margin: 10px 20px
+  margin: 10px;
 }
 
 /*Locations*/
